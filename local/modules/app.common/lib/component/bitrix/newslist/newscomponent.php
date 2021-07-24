@@ -8,8 +8,8 @@ use App\Common\Component\ComponentInterface;
 
 class NewsComponent implements ComponentInterface
 {
-    public function modifyResult(array &$result): void
+    public function modifyResult(array $result): array
     {
-        $result = [];
+        return [];
     }
 }

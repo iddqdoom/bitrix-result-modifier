@@ -7,5 +7,5 @@ $component = new \App\Common\Component\Component(
 );
 
 /** @var array $arResult */
-$component->create('news')->modifyResult($arResult['ITEMS']);
+$arResult = $component->create('news')->modifyResult($arResult);
 
